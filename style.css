@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./pexels-cátia-matos-1072179.jpg);
+    background-size: cover;
+}
+
+.timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    margin-top: 20%;
+    gap: 40px;
+    font-size: 80px;
+    color: white;
+}
+
+.timer span {
+    margin: 10px;
+    font-size: 20px;
+    color: white;
+    /* display: flex;
+    justify-content: start; */
+    position: relative;
+}
+
+.functionButtons{
+    position: relative;
+    display: flex;
+    text-align: center;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    /* width: 100%; */
+    /* top: 60%;
+    left: 40%; */
+    gap: 5%;
+}
+
+.functionButtons button{
+    height: 50px;
+    width: 140px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(231, 0, 0);
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.functionButtons button:hover{
+    cursor: pointer;
+    background-color: rgb(0, 94, 182);
+}

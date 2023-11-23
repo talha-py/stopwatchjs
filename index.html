@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="timer">
+        <div id ="hours">00</div><span>Min</span>
+        <div id ="mins">00</div><span>Sec</span>
+        <div id ="secs">00</div><span>mSec</span>
+        <div id ="msecs">00</div>
+    </div>
+
+    <div class="functionButtons">
+        <button id="startBtn" onclick="timerStart()">Start</button>
+        <button onclick="timerStop()">Stop</button>
+        <button onclick="timerReset()">Reset</button>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
